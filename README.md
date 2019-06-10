@@ -756,9 +756,7 @@ void sac()
      int c,parcelas;
      float MIP,MIP2,DFI, DFI2, valor_juros, juros, valor_mes,amortizacao,valor_imovel, taxa_adm;
      
-/*Calculo do pagamento no sistema SAC somando 
-	  com a taxa de administração e o DFI, 
-	  subtraindo a amortização do total do imovel 
+/*Calculo do pagamento no sistema SAC somando  com a taxa de administração e o DFI, subtraindo a amortização do total do imovel 
 	  a cada parcela e multiplicando dos novos valores totais 
 	  o juros e o MIP
 	  deixando mes a mes a parcela mais barata*/
@@ -766,8 +764,10 @@ void sac()
       
  //Aqui o usuario dara ao programa os dados do imóvel.
 
-printf ("                                               SIMULADOR DO SISTEMA SAC PARA FINANCIAMENTO:\n\nInsira o valor total do imovel: "); scanf("%f",&valor_imovel);
-    printf ("Quantas vezes deseja pagar o imovel: "); scanf("%i",&parcelas);
+printf ("                  SIMULADOR DO SISTEMA SAC PARA FINANCIAMENTO:\n\nInsira o valor total do 
+imovel: "); scanf("%f",&valor_imovel);
+
+   printf ("Quantas vezes deseja pagar o imovel: "); scanf("%i",&parcelas);
       
 printf ("Insira o valor do juros: "); scanf("%f",&juros);
 	  
